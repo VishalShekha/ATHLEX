@@ -2,6 +2,9 @@ import React from 'react'
 
 function Hello() {
   return (
+    <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-sm-8 col-md-6 col-lg-4">
     <div>
      <form>
   <div class="mb-3">
@@ -19,6 +22,9 @@ function Hello() {
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+    </div>
+    </div>
+    </div>
     </div>
   )
 }

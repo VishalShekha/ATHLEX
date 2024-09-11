@@ -10,6 +10,7 @@ import CricketBats from "./Pages/bats";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './custom-theme.css';
 import CricketBat from "./Pages/CricketBat";
+import ManufacturesForm from "./Pages/ManufacturesForm";
 
 
 function App() {
@@ -17,15 +18,14 @@ function App() {
     
     <div>
     <Navbar/>
+    <div className="container-xxl">
+    <ManufacturesForm/>
+    
+    </div>
     <CricketBat/>
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-sm-8 col-md-6 col-lg-4">
           <Login/>
           <SignUp/>
-        </div>
-      </div>
-    </div>
+       
     <CricketBats/>
     <Sports/>
     <Footer/>
