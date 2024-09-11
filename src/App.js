@@ -6,7 +6,7 @@ import Navbar from "./Components/Navbar"
 import Login from "./Pages/Login"
 import Sports from "./Pages/Sports"
 import SignUp from "./Pages/SignUp";
-
+import CricketBats from "./Pages/bats";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './custom-theme.css';
 
@@ -24,6 +24,7 @@ function App() {
         </div>
       </div>
     </div>
+    <CricketBats/>
     <Sports/>
     <Footer/>
     </div>
