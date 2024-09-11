@@ -1,0 +1,15 @@
+/* custom-theme.css */
+body {
+    background-color: #f0f0f0;
+  }
+  
+  .navbar {
+    background-color: #000000;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #000000;
+  }
+  
+  /* Add more custom styles here */
+  
